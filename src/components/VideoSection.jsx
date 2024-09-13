@@ -7,11 +7,11 @@ export default function VideoSection() {
   return (
     <div className="mx-auto max-w-screen-xl p-3 pb-28 md:pb-[164px]">
       <p className="mb-3 text-center font-poppins text-[22px] font-medium text-secondary">
-        Why Dr. Matthew Anderson?
+        Tại sao dành cho bạn?
       </p>
 
       <div className="relative mt-4 flex w-full items-center justify-center">
-        <img className="w-full" src="/video-bg.png" alt="Video" />
+        <img className="w-full" src="/PythonFinance.jpeg" alt="Video" />
         <button className="absolute flex size-[60px] items-center justify-center rounded-full bg-primary-start md:size-[100px]">
           <IoPlayOutline className="ml-2 size-10 text-white md:size-16" />
         </button>
@@ -19,20 +19,17 @@ export default function VideoSection() {
 
       <div>
         <h4 className="mb-3 mt-4 text-center font-poppins text-[32px] font-semibold text-[#031432]">
-          A dedicated doctor with the core mission to help
+        Phương pháp giảng dạy bài bản, dễ hiểu
         </h4>
         <p className="mx-auto max-w-[843px] text-center text-para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam proin
-          nibh cursus at sed sagittis amet, sed. Tristique id nibh lobortis nunc
-          elementum. Tellus quam mauris aenean turpis vulputate sodales nullam
-          lobortis. Vulputate tortor tincidun.
+        Learn Python Programming and Conduct Real-World Financial Analysis in Python - Complete Python Training
         </p>
       </div>
 
       <div className="mt-[60px] flex flex-col items-center justify-center gap-6 md:flex-row">
-        <Item title="+15 years of experience" />
-        <Item title="Urgent 24 hour service" Icon={FiCheckCircle} />
-        <Item title="High quality care" Icon={PiPlusCircleBold} />
+        <Item title="+9 years of experience" />
+        <Item title="Dịch vụ 24/7" Icon={FiCheckCircle} />
+        <Item title="Hướng dẫn tận tình" Icon={PiPlusCircleBold} />
       </div>
     </div>
   );

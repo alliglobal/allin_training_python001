@@ -6,9 +6,9 @@ import { PiPlusCircleBold } from "react-icons/pi";
 export default function ListItems() {
   return (
     <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-center gap-4 px-3 md:gap-7">
-      <Item title="24 hour service" />
-      <Item title="8 years of experience" Icon={FiCheckCircle} />
-      <Item title="High quality care" Icon={PiPlusCircleBold} />
+      <Item title="Thực tiễn và ứng dụng cao" />
+      <Item title="8 năm kinh nghiệm" Icon={FiCheckCircle} />
+      <Item title="Dành riêng cho người Việt " Icon={PiPlusCircleBold} />
     </div>
   );
 }

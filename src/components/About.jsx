@@ -8,7 +8,7 @@ export default function About() {
       <div className="max-h-[495px] max-w-[586px]">
         <img
           className="custom-animate size-[85%] object-contain md:size-full"
-          src="/about.png"
+          src="/main.png"
           alt="About"
         />
       </div>
@@ -18,16 +18,17 @@ export default function About() {
           About me
         </h5>
         <h1 className="max-w-[485px] font-poppins text-[32px] font-semibold leading-normal text-[#031432]">
-          A dedicated doctor with the core mission to help
+         Giảng viên giàu kinh nghiệm thực chiến
+
         </h1>
         <p className="mb-4 max-w-[485px] text-para">
-          orem ipsum dolor sit amet, consectetur adipiscing elit. Quam proin
-          nibh cursus at sed sagittis amet, sed. Tristique id nibh lobortis nunc
-          elementum. Tellus quam mauris aenean turpis vulputate sodales nullam
-          lobortis. Vulputate tortor tincidun.
+        I am doing this course as part of my preparation for an Associate Quantitative Developer role. So far it has been very clear, I am a recent graduate software engineer, but have not used python much before. I can't wait to learn how to use python and apply quantitative methods on financial data. Then I get to go a delve into Equity Futures, Options and Forwards. I might head over to Quantopian for that. Wish me luck guys! and again thanks for the great content
         </p>
-        <Button title="Book an appointment" Icon={FaWhatsapp} />
+        <Button title="Đăng ký ngay" Icon={FaWhatsapp} />
       </div>
     </div>
+
+    
+
   );
 }

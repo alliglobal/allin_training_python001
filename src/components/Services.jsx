@@ -10,19 +10,19 @@ export default function Services() {
           Services
         </h5>
         <h1 className="max-w-[485px] font-poppins text-[32px] font-semibold leading-normal text-[#031432]">
-          Experienced in multiple medical practices
+        Khoá học không yêu cầu bạn phải có kinh nghiệm lập trình từ trước
         </h1>
         <p className="mb-4 max-w-[485px] text-para">
           orem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
           egestas viverra turpis habitant eu sociis fermentum felis.
         </p>
-        <Button title="Book an appointment" Icon={FaWhatsapp} />
+        <Button title="Đăng ký ngay" Icon={FaWhatsapp} />
       </div>
 
       <div className="max-h-[660px] max-w-[622px]">
         <img
           className="custom-animate size-[85%] object-contain md:size-full"
-          src="/service.png"
+          src="/python 002.png"
           alt="About"
         />
       </div>
